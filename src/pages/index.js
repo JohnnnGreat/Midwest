@@ -101,11 +101,7 @@ export default function Home() {
         <section className="menu-s">
           <div className="menu-wrapper">
             <div className="menu-grid">
-              <div
-                className="first-grd"
-                data-aos="fade-right"
-                data-aos-duration="1000"
-              >
+              <div className="first-grd">
                 <h1 className="intr">Taste our meal</h1>
                 <h1 className="main-txt">Our Menu</h1>
                 <p className="menu-desc">
@@ -120,11 +116,7 @@ export default function Home() {
                   <i class="ri-arrow-right-line"></i>
                 </Link>
               </div>
-              <div
-                className="second-grd"
-                data-aos="fade-left"
-                data-aos-duration="1000"
-              >
+              <div className="second-grd">
                 <svg
                   width="506"
                   height="506"
@@ -179,18 +171,8 @@ export default function Home() {
           ></Image>
           <div className="item-wrapper">
             <div className="item-header">
-              <h1
-                className="item-text"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-              >
-                Hot Item of the Week!
-              </h1>
-              <p
-                className="item-desc"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-              >
+              <h1 className="item-text">Hot Item of the Week!</h1>
+              <p className="item-desc">
                 Each week, our talented chefs handpick a sensational dish
                 that&apos;s sure to dazzle your taste buds. From sizzling steaks
                 to delectable desserts, this limited-time offering is a
@@ -198,11 +180,7 @@ export default function Home() {
               </p>
             </div>
             <div className="item-main">
-              <div
-                className="first-sec"
-                data-aos="fade-right"
-                data-aos-duration="1000"
-              >
+              <div className="first-sec">
                 <div className="divider"></div>
                 <h1 className="first-text">BONGO JERK WRAP</h1>
                 <p className="second-text">Bongo Jerk wrap with chips.</p>
@@ -218,11 +196,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="second-sec">
-                <div
-                  className="img-container"
-                  data-aos="fade-left"
-                  data-aos-duration="1000"
-                >
+                <div className="img-container">
                   <div className="item-img-desc">
                     BONGO JERK WRAP <br />
                   </div>
@@ -240,11 +214,7 @@ export default function Home() {
         <section className="photos">
           <div className="wrapper">
             <div className="grid-photos">
-              <div
-                data-aos="fade-down"
-                data-aos-duration="1000"
-                className="image-p-container"
-              >
+              <div className="image-p-container">
                 <div className="_img-card">
                   <div className="tag-crd">
                     <h1>Jerk Chiken</h1>
@@ -256,11 +226,7 @@ export default function Home() {
                   alt="This is an image"
                 ></Image>
               </div>
-              <div
-                data-aos="fade-left"
-                data-aos-duration="1000"
-                className="image-p-container"
-              >
+              <div className="image-p-container">
                 <div className="_img-card">
                   <div className="tag-crd">
                     <h1>Mac Oxtails </h1>
@@ -273,11 +239,7 @@ export default function Home() {
                 ></Image>
               </div>
 
-              <div
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                className="image-p-container"
-              >
+              <div className="image-p-container">
                 <div className="_img-card">
                   <div className="tag-crd">
                     <h1>Rasta Pasta</h1>
@@ -289,11 +251,7 @@ export default function Home() {
                   alt="This is an image"
                 ></Image>
               </div>
-              <div
-                data-aos="fade-right"
-                data-aos-duration="1000"
-                className="image-p-container"
-              >
+              <div className="image-p-container">
                 <div className="_img-card">
                   <div className="tag-crd">
                     <h1>Sizzling Shrimp</h1>

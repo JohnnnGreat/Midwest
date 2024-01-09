@@ -8,13 +8,13 @@ import { useEffect } from "react";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
-    AOS.init();
+    // AOS.init();
   });
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <Component {...pageProps} />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

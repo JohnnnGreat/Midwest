@@ -73,19 +73,11 @@ function Subscribe() {
   return (
     <section className="news">
       <div className="news-wrapper">
-        <div
-          className="news-header"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-        >
+        <div className="news-header">
           <h1>GET UPDATES ON DISCOUNTS, EVENTS & SPECIAL OFFERS</h1>
           <p>Sign up to Our Newsletter</p>
         </div>
-        <div
-          className="form-container"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
+        <div className="form-container">
           <form className="form" action="">
             <input
               value={email}
